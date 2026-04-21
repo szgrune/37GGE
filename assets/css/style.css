@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 7.5vh 15vh 15vh 7.5vh;
+  grid-template-rows: repeat(5, 18vh);
+  width: 45vh;
+  height: 90vh;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+/* Remove exterior borders so only interior lines are visible */
+.cell:nth-child(-n+4)  { border-top: none; }
+.cell:nth-child(4n+1)  { border-left: none; }
+.cell:nth-child(4n)    { border-right: none; }
+.cell:nth-child(n+17)  { border-bottom: none; }

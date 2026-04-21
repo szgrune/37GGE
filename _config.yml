@@ -1,0 +1,6 @@
+title: 37GGE
+description: ""
+baseurl: "/37GGE"
+url: "https://szgrune.github.io"
+markdown: kramdown
+permalink: /:name
