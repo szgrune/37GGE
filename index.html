@@ -69,6 +69,19 @@
         else if (panel === 0) goTo(1);
       });
 
+      var touchStartX = null;
+      document.addEventListener('touchstart', function (e) {
+        touchStartX = e.touches[0].clientX;
+      }, { passive: true });
+      document.addEventListener('touchend', function (e) {
+        if (touchStartX === null) return;
+        var dx = e.changedTouches[0].clientX - touchStartX;
+        touchStartX = null;
+        if (Math.abs(dx) < 40) return;
+        if (dx < 0 && panel < 2) goTo(panel + 1);
+        if (dx > 0 && panel > 0) goTo(panel - 1);
+      }, { passive: true });
+
       goTo(1);
     })();
   </script>
