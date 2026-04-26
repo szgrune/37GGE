@@ -6,7 +6,13 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
-{{ content }}
+<body class="page">
+  <header class="site-header">
+    <a href="{{ '/' | relative_url }}" class="site-logo">37GGE</a>
+    <a href="{{ '/about' | relative_url }}" class="site-about">?</a>
+  </header>
+  <main class="page-content">
+    {{ content }}
+  </main>
 </body>
 </html>
