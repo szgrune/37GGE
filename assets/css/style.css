@@ -70,19 +70,23 @@ body.index {
 body.page {
   min-height: 100vh;
   background: white;
-  padding: 80px 10vw 40px;
 }
 
 .page-content {
   width: fit-content;
   max-width: 100%;
   margin: 0 auto;
+  padding: 80px 10vw 80px;
   font-family: Helvetica, Arial, sans-serif;
   color: black;
 }
 
 .page-content > * + * {
   margin-top: 16px;
+}
+
+.page-content p + p {
+  margin-top: 0.8em;
 }
 
 .page-content h1 { font-size: 2rem;    font-weight: bold; line-height: 1.2; }
@@ -118,6 +122,20 @@ body.page {
 
 .page-content a {
   color: black;
+}
+
+.page-content blockquote {
+  margin-left: 1.5em;
+  padding: 1em 1.5em;
+  background: whitesmoke;
+  font-style: italic;
+  color: #444;
+}
+
+.page-content hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
 }
 
 .page-content ul,
