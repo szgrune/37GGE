@@ -8,7 +8,9 @@ title: "About"
 #### Welcome to 37GGE
 37GGE is what my family sometimes calls my grandmother's (Judy's) house, where my dad (Michael) and his brothers (Eric and Dan) grew up and where my grandfather (Henry) lived up until his passing in 2014. 37GGE is just an abbreviation of the street address, used primarily in text messages. We have an active extended family groupchat, in which Judy, who recently turned 90 years old, participates regularly.
 
-37GGE is an archive of objects borrowed from my grandmother’s house, some of which must be disposed of after this exhibition in an effort to begin clearing out the piles of stuff accumulated over decades, a looming task for my family. Each object carries a story about one or more Grunebaum. Some objects are surfaced here for the first time in more than 50 years, others were in use up until recently. The construction of this assemblage was simply an excuse for me to spend time at my grandmother’s house doing my favorite thing to do there, combing through piles of her stuff and finding things that interest me and asking her about them.
+37GGE is an archive of objects borrowed from my grandmother’s house, some of which must be disposed of after this exhibition in an effort to begin clearing out the piles of stuff accumulated over decades, a looming task for my family. While some efforts have been made to begin organizing things, it's likely that we won't properly begin clearing things out until the day comes that we really have to – and there's a whole lot of stuff.
+
+Each object carries a story about one or more Grunebaum. Some objects are surfaced here for the first time in more than 50 years, others were in use up until recently. The construction of this assemblage was simply an excuse for me to spend time at my grandmother Judy’s house doing my favorite thing to do there, combing through piles of her and Henry's stuff and finding things that interest me and asking her about them.
 
 > "I would like there to exist places that are stable, unmoving, intangible, untouched and almost untouchable, unchanging, deep-rooted; places that might be points of reference, of departure, of origin: 
 > 
