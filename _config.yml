@@ -1,6 +1,6 @@
 title: 37GGE
 description: ""
-baseurl: "/37GGE"
-url: "https://szgrune.github.io"
+baseurl: ""
+url: "https://37gge.samzgrunebaum.org"
 markdown: kramdown
 permalink: /:name
