@@ -3,7 +3,10 @@ layout: default
 title: "About"
 ---
 
-![Image of a doorway to a brick house with the number 37](/img/37GGE.jpeg) ![Installation view of 37GGE](/img/installation_view.jpg)
+<div class="image-row">
+  <img src="/img/37GGE.jpeg" alt="Image of a doorway to a brick house with the number 37">
+  <img src="/img/installation_view.jpg" alt="Installation view of 37GGE">
+</div>
 
 #### Welcome to 37GGE
 37GGE is what my family sometimes calls my grandmother's (Judy's) house, where my dad (Michael) and his brothers (Eric and Dan) grew up and where my grandfather (Henry) lived up until his passing in 2014. 37GGE is just an abbreviation of the street address, used primarily in text messages. We have an active extended family groupchat, in which Judy, who recently turned 90 years old, participates regularly.

@@ -146,6 +146,21 @@ body.page {
   display: block;
 }
 
+/* Images sharing a row: equal height, 8px between them */
+.page-content .image-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.page-content .image-row img {
+  /* vw cap keeps the pair from overflowing on narrow-but-tall viewports */
+  height: min(50vh, 42vw);
+  max-height: none;
+  width: auto;
+  flex: 0 0 auto;
+}
+
 @media (max-width: 768px) {
   .site-logo,
   .site-about {
@@ -255,6 +270,16 @@ body.page {
     width: 100%;
     height: auto;
     max-height: none;
+  }
+
+  /* Stacked, full width — same as before the row was introduced */
+  .page-content .image-row {
+    display: block;
+  }
+
+  .page-content .image-row img {
+    width: 100%;
+    height: auto;
   }
 }
 
